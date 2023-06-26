@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Form from './components/Form';
 
-function App() {
+// import FormInput from './components/FormInput';
+// import FormDataDisplay from './components/FormDataDisplay';
+// import FormDataDisplay from './components/FormDataDisplay';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div >
+     
+      <h1 > Contact Us</h1>
+      <Form  className="Form1"> </Form>
+      
+      
+
+      {/* <FormInput/> */}
+
+      {/* <FormDataDisplay/> */}
+
+      
+
     </div>
   );
-}
+};
 
 export default App;
+
+// display: flex;
+// align-content: center;
+// justify-content: space-around;
+// align-items: center;
